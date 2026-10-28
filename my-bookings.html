@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Bookings — Glow & Glow.</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="wordmark">Glam &amp; Glow.<small>Beauty parlour</small></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="my-bookings.html">My Bookings</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="booking.html" class="btn btn-primary header-cta">Book Appointment</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h1>My bookings</h1>
+          <p>Saved on this device. Cancel anytime — no account needed.</p>
+        </div>
+
+        <div id="bookings-list"></div>
+
+        <div class="empty-state" id="empty-state" style="display: none;">
+          <p>No bookings yet.</p>
+          <a href="booking.html" class="btn btn-primary">Book your first appointment</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; 2026 Glam &amp; Glow</span>
+      <span>12 Moi Avenue, Nairobi · Mon–Sat, 9am–7pm</span>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
